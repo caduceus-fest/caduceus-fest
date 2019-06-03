@@ -29,9 +29,7 @@ const Layout = ({ children }) => (
         <div>
           <main>{children}</main>
           <footer>
-            © {new Date().getFullYear()}, (x) Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            © {new Date().getFullYear()}, Built for Caduceus
           </footer>
         </div>
       </>

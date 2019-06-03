@@ -23,6 +23,7 @@
     "react-md": "^1.12.1"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.1"
   },
@@ -32,7 +33,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
