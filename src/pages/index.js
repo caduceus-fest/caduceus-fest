@@ -5,18 +5,23 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+const organizes = ['alias', 'globus', 'medical', 'publius', 'ub-lawyers'];
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div class="md-grid">
+    <div class="md-grid" style={{backgroundColor:'#4dd0e1', color: 'white'}}>
       <div class="md-cell--12">
         <h1>International Fest Caduceus</h1>
       </div>
       <div class="md-cell--4">
         <h3>Organizes</h3> 
         <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-          <Image />
+          {/* <Image /> */}
         </div>
+        { organizes.map( org => 
+          <img src={`orgs/${org}.jpg`} style={{maxWidth: '50%', maxHeight: '4em'}}></img>
+          ) }
       </div>
       <div class="md-cell--4">
         <h3>Genres</h3>
