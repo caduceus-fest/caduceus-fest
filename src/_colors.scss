@@ -16,6 +16,34 @@ $theme-color-5: #D84929;
 // $theme-color-4: #038C8C;
 // $theme-color-5: #C3D973;
 
-body {
-  
+.color-1 {
+  color: $theme-color-1;
+}
+.color-2 {
+  color: $theme-color-2;
+}
+.color-3 {
+  color: $theme-color-3;
+}
+.color-4 {
+  color: $theme-color-4;
+}
+.color-5 {
+  color: $theme-color-5;
+}
+
+.bg-color-1 {
+  background-color: $theme-color-1;
+}
+.bg-color-2 {
+  background-color: $theme-color-2;
+}
+.bg-color-3 {
+  background-color: $theme-color-3;
+}
+.bg-color-4 {
+  background-color: $theme-color-4;
+}
+.bg-color-5 {
+  background-color: $theme-color-5;
 }

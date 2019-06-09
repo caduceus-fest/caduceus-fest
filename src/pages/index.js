@@ -47,13 +47,16 @@ const IndexPage = () => (
         <h3>Fest Schedule</h3>
         <ul>
           <li>10<sup>th</sup> August - Arrival</li>
-          <li>10<sup>th</sup> August - Arrival</li>
-          <li>10<sup>th</sup> August - Arrival</li>
-          <li>10<sup>th</sup> August - Arrival</li>
-          <li>10<sup>th</sup> August - Arrival</li>
-          <li>10<sup>th</sup> August - Arrival</li>
-          <li>10<sup>th</sup> August - Arrival</li>
-          <li>10<sup>th</sup> August - Arrival</li>
+          <li class="color-1">10<sup>th</sup> August - Arrival</li>
+          <li className="color-2">10<sup>th</sup> August - Arrival</li>
+          <li className="color-3">10<sup>th</sup> August - Arrival</li>
+          <li className="color-4">10<sup>th</sup> August - Arrival</li>
+          <li className="color-5">10<sup>th</sup> August - Arrival</li>
+          <li className="bg-color-1">10<sup>th</sup> August - Arrival</li>
+          <li className="bg-color-2">10<sup>th</sup> August - Arrival</li>
+          <li className="bg-color-3">10<sup>th</sup> August - Arrival</li>
+          <li className="bg-color-4">10<sup>th</sup> August - Arrival</li>
+          <li className="bg-color-5">10<sup>th</sup> August - Arrival</li>
         </ul>
       </div>
       <Link to="/page-2/">Go to page 2</Link>
