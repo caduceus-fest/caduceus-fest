@@ -1,8 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+import Jury from '../chunks/jury'
 
 const organizes = ['alias', 'globus', 'medical', 'publius', 'ub-lawyers'];
 
@@ -56,8 +57,8 @@ const IndexPage = () => (
           <li className="bg-color-5">10<sup>th</sup> August - Arrival</li>
         </ul>
       </div>
-      <Link to="/page-2/">Go to page 2</Link>
     </div>
+    <Jury/>
   </Layout>
 );
 
