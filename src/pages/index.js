@@ -20,15 +20,12 @@ const IndexPage = () => (
         <h2 className="md-text-right">Fashion</h2>
       </div>
     </div>
-    <div class="md-grid" style={{backgroundColor:'#4dd0e1', color: 'white'}}>
-      <div class="md-cell md-cell--12">
-        <h1>International Fest Caduceus</h1>
-      </div>
+    <div class="md-grid hero-unit">
       <div class="md-cell md-cell--4">
-        <h3>Organizes</h3> 
+        <h3>Organizes</h3>
         <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         </div>
-        { organizes.map( org => 
+        { organizes.map( org =>
           <img src={`orgs/${org}.jpg`} style={{maxWidth: '50%', maxHeight: '4em'}} alt="" />
           ) }
       </div>
@@ -62,6 +59,6 @@ const IndexPage = () => (
       <Link to="/page-2/">Go to page 2</Link>
     </div>
   </Layout>
-)
+);
 
 export default IndexPage
