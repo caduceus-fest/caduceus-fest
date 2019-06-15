@@ -27,7 +27,6 @@ const Documents = () => (
     `}
     render={data => (
       <div className="md-grid">
-        { console.log('data', data)}
         <h3 className='md-cell md-cell--12'>Documents</h3>
         { data.allFile.edges.map( ({node}) =>
           <a key={node.id} className='document md-text-center md-cell md-cell--2' href={node.publicURL}>
