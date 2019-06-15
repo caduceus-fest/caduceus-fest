@@ -78,7 +78,7 @@ const Jury = () => (
     <div className="md-grid">
       <h3 className='md-cell md-cell--12'>Jury</h3>
       { juryMembers.map( member =>
-        <JuryMember member={member}></JuryMember>
+        <JuryMember key={member.name} member={member}></JuryMember>
       )}
     </div>
 );
