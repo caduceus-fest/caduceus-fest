@@ -4,7 +4,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Jury from '../chunks/jury'
-import Documents from "../chunks/contacts";
+import Documents from "../chunks/documents";
+import Contacts from "../chunks/contacts";
 
 const organizes = ['alias', 'globus', 'medical', 'publius', 'ub-lawyers'];
 
@@ -61,6 +62,7 @@ const IndexPage = () => (
     </div>
     <Jury/>
     <Documents/>
+    <Contacts/>
   </Layout>
 );
 
