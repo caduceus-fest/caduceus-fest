@@ -1,0 +1,8 @@
+- Add markdown or mdx support where appropriate
+- Add file source plugin & iterate on Documents section
+- Zebra color for main sections
+- Photos + PhotoViewer for Jury Members section
+- Contacts - better view
+- Organizes - structure and style photos
+- Navigation
+- Check mobile view
