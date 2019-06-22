@@ -27,6 +27,23 @@
   h2 {
     // color: $theme-color-3;
   }
+
+  .md-chip {
+    display: flex;
+    //background: $theme-color-2;
+
+    .md-chip-text {
+      font-size: 0.9em;
+    }
+  }
+
+  .md-avatar-content {
+    background: $theme-color-1;
+  }
+}
+
+.spaced-vertical {
+  margin-bottom: 0.5em;
 }
 
 .document {
@@ -35,6 +52,7 @@
     color: $theme-color-5;
   }
 }
+
 
 
 // default
