@@ -25,7 +25,7 @@ const IndexPage = () => (
     </div>
     <div className="md-grid hero-unit">
       <div className="md-cell md-cell--4">
-        <h3>Organizes</h3>
+        <h3 className="color-1">Organizes</h3>
         <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         </div>
         { organizes.map( org =>
@@ -33,7 +33,7 @@ const IndexPage = () => (
           ) }
       </div>
       <div className="md-cell md-cell--4">
-        <h3>Genres</h3>
+        <h3 className="color-1">Genres</h3>
         <ul>
           <li>Vocalists</li>
           <li>Bands</li>
@@ -44,19 +44,15 @@ const IndexPage = () => (
         </ul>
       </div>
       <div className="md-cell md-cell--4">
-        <h3>Fest Schedule</h3>
+        <h3 className="color-1">Fest Schedule</h3>
         <ul>
           <li>10<sup>th</sup> August - Arrival</li>
-          <li className="color-1">10<sup>th</sup> August - Arrival</li>
-          <li className="color-2">10<sup>th</sup> August - Arrival</li>
-          <li className="color-3">10<sup>th</sup> August - Arrival</li>
-          <li className="color-4">10<sup>th</sup> August - Arrival</li>
-          <li className="color-5">10<sup>th</sup> August - Arrival</li>
-          <li className="bg-color-1">10<sup>th</sup> August - Arrival</li>
-          <li className="bg-color-2">10<sup>th</sup> August - Arrival</li>
-          <li className="bg-color-3">10<sup>th</sup> August - Arrival</li>
-          <li className="bg-color-4">10<sup>th</sup> August - Arrival</li>
-          <li className="bg-color-5">10<sup>th</sup> August - Arrival</li>
+          <li>11<sup>th</sup> August - Excursions to the main city's tourist attractions with a guide</li>
+          <li>12<sup>th</sup> August - Majorette and dance performance</li>
+          <li>13<sup>th</sup> August - Band and dance (folk) performances</li>
+          <li>14<sup>th</sup> August - Show, fashion and vocal performances</li>
+          <li>15<sup>th</sup> August - The ceremony of prizes and diplomas awarding. Gala concert</li>
+          <li>16<sup>th</sup> August - Departure</li>
         </ul>
       </div>
     </div>
