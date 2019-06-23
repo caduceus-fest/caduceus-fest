@@ -30,16 +30,20 @@ const Layout = ({ children }) => (
           <main>{children}</main>
           <footer className='hero-unit compact'>
             © {new Date().getFullYear()}, Built for Caduceus
-            <span style={{ float: 'right' }}>by <a href="https://github.com/lifecoderua">Oleksii Volkov</a></span>
+            <span style={{ float: 'right' }}>
+              by <a href="https://github.com/lifecoderua" target='_blank' rel="noopener noreferrer">
+                Oleksii Volkov
+              </a>
+            </span>
           </footer>
         </div>
       </>
     )}
   />
-)
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
 export default Layout
