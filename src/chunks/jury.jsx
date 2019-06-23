@@ -4,6 +4,7 @@ import JuryMember from "./jury-member";
 const juryMembers = [
   {
     name: 'Анастасія Блінкова',
+    dir: 'blinkova',
     about: `Виконавець, мультиінструменталіст, вокаліст, викладач, композитор, саунд-продюсер. 
 За освітою диригент - НМАУ ім.П.І.Чайковського(магістр), Аспірант НАКККіМ, випускник КССМШ ім.Н.В.Лисенка.
 Колишній соліст вокального ансамблю «Конкорд». 
@@ -20,6 +21,7 @@ const juryMembers = [
   },
   {
     name: 'Лев Ременєв',
+    dir: 'remeniev',
     about: `Виконавець, мультиінструменталіст, вокаліст, викладач, композитор, саунд-продюсер. 
 За освітою диригент - НМАУ ім.П.І.Чайковського(магістр), Аспірант НАКККіМ, випускник КССМШ ім.Н.В.Лисенка.
 Колишній соліст вокального ансамблю «Конкорд». 
@@ -36,6 +38,7 @@ const juryMembers = [
   },
   {
     name: 'Александр Секирин',
+    dir: 'sekirin',
     about: `В танцевальной культуре уже 19 лет. 
 Организатор :
 Основатель и руководитель All stars Dance Centre (Харьков)-самая большая школа танцев Украины. 
@@ -74,8 +77,12 @@ https://www.youtube.com/watch?v=ZgCCkjLj94A&fbclid=IwAR3gMsqwK42VdYVkxTY1B0nDAZX
   },
 ];
 
+const style = {
+  fontFamily: 'Roboto',
+};
+
 const Jury = () => (
-    <div className="md-grid hero-secondary">
+    <div className="md-grid hero-secondary" style={ style }>
       <h3 className='md-cell md-cell--12'>Jury</h3>
       { juryMembers.map( member =>
         <JuryMember key={member.name} member={member}></JuryMember>
