@@ -29,7 +29,7 @@ const IndexPage = () => (
         <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         </div>
         { organizes.map( org =>
-          <img key={org} src={`orgs/${org}.jpg`} style={{maxWidth: '50%', maxHeight: '4em'}} alt="" />
+          <img key={org} src={`orgs/${org}.jpg`} style={{maxWidth: '50%', maxHeight: '4em', marginRight: '7px'}} alt="" />
           ) }
       </div>
       <div className="md-cell md-cell--4">

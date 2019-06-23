@@ -3,7 +3,7 @@ import {Avatar, Chip, FontIcon} from "react-md";
 
 
 const Contacts = () => (
-  <div className="md-grid hero-unit">
+  <div className="md-grid hero-secondary">
     <h3 className='md-cell md-cell--12'>Contact Us</h3>
     <h4 className='md-cell md-cell--12'>Olga Nadoieva</h4>
 

@@ -27,13 +27,21 @@
   h2 {
     // color: $theme-color-3;
   }
+}
+
+
+.hero-secondary {
+  padding: 2rem;
+  color: $theme-color-1;
 
   .md-chip {
     display: flex;
-    //background: $theme-color-2;
+    background: $theme-color-3;
 
     .md-chip-text {
+      color: white;
       font-size: 0.9em;
+      font-weight: bold;
     }
   }
 
@@ -41,6 +49,7 @@
     background: $theme-color-1;
   }
 }
+
 
 .no-decoration {
   text-decoration: none;
@@ -51,9 +60,12 @@
 }
 
 .document {
+  color: white;
+  text-decoration-color: white;
+
   .md-icon {
     font-size: 3em;
-    color: $theme-color-5;
+    color: $theme-color-accent;
   }
 }
 
