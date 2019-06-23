@@ -20,6 +20,16 @@
   background-color: $theme-color-3;
   padding: 2rem;
 
+  a {
+    color: white;
+    text-decoration-color: white;
+  }
+
+  &.compact {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+
   h1 {
     color: white;
   }
@@ -60,9 +70,6 @@
 }
 
 .document {
-  color: white;
-  text-decoration-color: white;
-
   .md-icon {
     font-size: 3em;
     color: $theme-color-accent;

@@ -75,7 +75,7 @@ https://www.youtube.com/watch?v=ZgCCkjLj94A&fbclid=IwAR3gMsqwK42VdYVkxTY1B0nDAZX
 ];
 
 const Jury = () => (
-    <div className="md-grid">
+    <div className="md-grid hero-secondary">
       <h3 className='md-cell md-cell--12'>Jury</h3>
       { juryMembers.map( member =>
         <JuryMember key={member.name} member={member}></JuryMember>
