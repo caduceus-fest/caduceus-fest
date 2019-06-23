@@ -21,6 +21,13 @@ module.exports = {
         path: `${__dirname}/src/files`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `${__dirname}/src/content`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -33,6 +40,13 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        "excerpt_separator": `<!-- more -->`,
+        plugins: [], // just in case those previously mentioned remark plugins sound cool :)
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

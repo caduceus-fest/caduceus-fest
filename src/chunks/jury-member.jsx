@@ -4,23 +4,15 @@ import {Card, CardText, CardTitle, Media, MediaOverlay} from "react-md";
 const JuryMember = (data) => (
   <div className="md-cell md-cell--4 jury-member">
     <Card>
-      {/*<CardTitle*/}
-        {/*title={ data.member.name }*/}
-        {/*subtitle=""*/}
-      {/*/>*/}
       <Media>
-        <img src={`/jury/${data.member.dir}/overlay.jpg`} alt="Nature from lorempixel" />
+        <img src={`/jury/${data.member.frontmatter.dir}/overlay.jpg`} alt="Nature from lorempixel" />
         <MediaOverlay>
-          <CardTitle title={ data.member.name } subtitle="Jury Member" />
+          <CardTitle title={ data.member.frontmatter.name } subtitle="Jury Member" />
         </MediaOverlay>
       </Media>
 
-      <CardText>
-        { data.member.excerpt }
+      <CardText dangerouslySetInnerHTML={{ __html: data.member.html }}>
       </CardText>
-        {/*<h4>{ data.member.name }</h4>*/}
-        {/*<span>{ data.member.about }</span>*/}
-        {/*<img src={`jury/${data.member.photos[0]}.jpg`} alt="" />*/}
     </Card>
   </div>
 );
