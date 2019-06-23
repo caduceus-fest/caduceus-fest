@@ -7,7 +7,7 @@ import Jury from '../chunks/jury'
 import Documents from "../chunks/documents";
 import Contacts from "../chunks/contacts";
 
-const organizes = ['alias', 'globus', 'medical', 'publius', 'ub-lawyers'];
+const organizes = ['alias', 'globus',/* 'medical',*/ 'publius', 'ub-lawyers'];
 
 const IndexPage = () => (
   <Layout>
