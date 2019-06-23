@@ -16,7 +16,7 @@ const JuryMember = (data) => (
       </Media>
 
       <CardText>
-        { data.member.about }
+        { data.member.excerpt }
       </CardText>
         {/*<h4>{ data.member.name }</h4>*/}
         {/*<span>{ data.member.about }</span>*/}
