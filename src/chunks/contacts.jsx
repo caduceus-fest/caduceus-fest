@@ -7,7 +7,7 @@ const Contacts = () => (
     <h3 className='md-cell md-cell--12'>Contact Us</h3>
     <h4 className='md-cell md-cell--12'>Olga Nadoieva</h4>
 
-    <div className='md-cell md-cell--2 md-cell--middle buttons__group'>
+    <div className='md-cell md-cell--2 md-cell--3-tablet md-cell--12-phone md-cell--middle buttons__group'>
       <a href="tel:+80967904265" className='no-decoration'>
         <Chip
           className='spaced-vertical'
@@ -23,7 +23,7 @@ const Contacts = () => (
         />
       </a>
     </div>
-    <div className='md-cell md-cell--2 buttons__group'>
+    <div className='md-cell md-cell--2 md-cell--3-tablet md-cell--12-phone buttons__group'>
       <a href="mailto:Olgadruon2017@ukr.net" className='no-decoration'>
         <Chip
           className='spaced-vertical'

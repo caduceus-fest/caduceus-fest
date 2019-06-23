@@ -13,10 +13,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="md-grid md-grid--no-spacing">
-      <div className="md-cell md-cell--6 nospace">
+      <div className="md-cell md-cell--6 md-cell--8-tablet nospace">
         <img src="/img/header.jpg" alt="" />
       </div>
-      <div className="md-cell md-cell--6 hero-unit">
+      <div className="md-cell md-cell--6 md-cell--8-tablet hero-unit">
         <h1 className="md-text-right">Caduceus International Festival</h1>
         <h2 className="md-text-right">Music</h2>
         <h2 className="md-text-right">Dance</h2>
