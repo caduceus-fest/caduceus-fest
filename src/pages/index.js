@@ -14,7 +14,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="md-grid md-grid--no-spacing">
       <div className="md-cell md-cell--6 nospace">
-        <img src="img/header.jpg" alt="" />
+        <img src="/img/header.jpg" alt="" />
       </div>
       <div className="md-cell md-cell--6 hero-unit">
         <h1 className="md-text-right">Caduceus International Festival</h1>
