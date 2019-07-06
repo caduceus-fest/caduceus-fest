@@ -7,6 +7,7 @@ import Jury from '../chunks/jury'
 import Documents from "../chunks/documents";
 import Contacts from "../chunks/contacts";
 import Participants from "../chunks/participants";
+import Genres from "../chunks/genres";
 
 const organizes = ['alias', 'globus',/* 'medical',*/ 'publius', 'ub-lawyers'];
 
@@ -24,7 +25,7 @@ const IndexPage = () => (
         <h2 className="md-text-right">Fashion</h2>
       </div>
     </div>
-    <div className="md-grid hero-unit">
+    <div className="md-grid hero-secondary">
       <div className="md-cell md-cell--4">
         <h3 className="color-1">Organizes</h3>
         <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
@@ -34,15 +35,7 @@ const IndexPage = () => (
           ) }
       </div>
       <div className="md-cell md-cell--4">
-        <h3 className="color-1">Genres</h3>
-        <ul>
-          <li>Vocalists</li>
-          <li>Bands</li>
-          <li>Dances (Modern/Folk)</li>
-          <li>Show</li>
-          <li>Majorettes</li>
-          <li>Fashion</li>
-        </ul>
+        {/* Genres was here, improve layout */}
       </div>
       <div className="md-cell md-cell--4">
         <h3 className="color-1">Fest Schedule</h3>
@@ -57,6 +50,7 @@ const IndexPage = () => (
         </ul>
       </div>
     </div>
+    <Genres/>
     <Jury/>
     <Participants/>
     <Documents/>
