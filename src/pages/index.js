@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Jury from '../chunks/jury'
 import Documents from "../chunks/documents";
 import Contacts from "../chunks/contacts";
+import Participants from "../chunks/participants";
 
 const organizes = ['alias', 'globus',/* 'medical',*/ 'publius', 'ub-lawyers'];
 
@@ -57,6 +58,7 @@ const IndexPage = () => (
       </div>
     </div>
     <Jury/>
+    <Participants/>
     <Documents/>
     <Contacts/>
   </Layout>
