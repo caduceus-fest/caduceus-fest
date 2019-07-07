@@ -19,7 +19,7 @@ const Genres = () => (
       <h4>м. Харків, Україна</h4>
     </div>
     <div className='md-cell md-cell--2'>
-      {/*<img src="/img/caduceus.jpg" alt=""/>*/}
+      <img src="/img/caduceus.png" alt=""/>
     </div>
     <div className='md-cell md-cell--5'>
       <h3 className="color-1 no-margin">International Fest</h3>
