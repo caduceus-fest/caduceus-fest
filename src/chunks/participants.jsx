@@ -51,7 +51,7 @@ const Participants = () => (
         minHeight: "1px",
         width: "100%",
         overflow: "auto"}}
-        className="hero-secondary">
+        className="hero-unit">
         <h3 className='md-cell md-cell--12'>Participants</h3>
         <Gallery
           images={formatGalleryImages(data.allFile.edges)}

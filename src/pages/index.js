@@ -8,6 +8,7 @@ import Documents from "../chunks/documents";
 import Contacts from "../chunks/contacts";
 import Participants from "../chunks/participants";
 import Genres from "../chunks/genres";
+import Map from "../chunks/map";
 
 const organizes = ['alias', 'globus',/* 'medical',*/ 'publius', 'ub-lawyers'];
 
@@ -53,6 +54,7 @@ const IndexPage = () => (
     <Genres/>
     <Jury/>
     <Participants/>
+    <Map/>
     <Documents/>
     <Contacts/>
   </Layout>
